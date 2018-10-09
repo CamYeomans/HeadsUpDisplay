@@ -2,11 +2,14 @@ body{
     margin: 0;
     width: 100vw;
     height:100vh;
+    background-color: #2a2a2e;
+    color: white;
 }
 
 
 
 .Weather, .Date{
+    position: relative;
     display: inline-block;
     height: 240px;
     width: 400px;
@@ -25,4 +28,85 @@ body{
 
 h1{
     margin: 0;
+}
+
+.HILOW {
+    position: absolute;
+    right: 15px;
+    top: 35px;
+}
+
+
+
+#circle {
+    width: 180px;
+    text-align: center;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+#icon {
+    width: 128px;
+    margin: auto;
+    filter: invert(100%);
+}
+
+
+.HILOW h4  {
+    font-size: 42pt;
+    margin: 0px;
+    text-align: center;
+}
+
+#HI h4{
+    color: crimson;
+    border-bottom: 2px solid white;
+}
+
+#LOW h4{
+    color: aqua;
+}
+
+
+#Stats {
+    border-bottom: 2px solid white;
+    font-size: 24pt;
+    margin: 10px 0px 0 40px;
+    text-align: center;
+}
+
+#Day {
+    font-size: 64pt;
+    text-align: center;
+}
+
+.Clock {
+    height: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+.AMPM {
+    display: inline-block;
+    font-size: 30pt;
+}
+
+h1 {
+    margin: 0;
+    display: inline-block;
+    font-size: 160pt;
+}
+
+.active{
+    border-bottom: 2px solid white; 
 }
