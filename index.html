@@ -9,7 +9,7 @@
         <script type="text/javascript" src="Weather.js"></script>
 
     </head>        
-    <body>
+    <body onload="updateClock(); setInterval('updateClock()', 1000 )">
 
         <section class="Weather">
                 <div class="HILOW">
@@ -30,7 +30,7 @@
         
         <section class="Time">
             <div class="Clock">
-                <h1 id="HHMM">10:00</h1>
+                <h1 id="HHMM">&nbsp;</h1>
                 <div class="AMPM">
                     <h3 id="AM" class="active">AM</h3>
                     <h3 id="PM">PM</h3>
