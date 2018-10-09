@@ -46,4 +46,7 @@ if(day == 6){
     document.getElementById("Day").firstChild.nodeValue = "SAT";
 }
 
+
+
+
 }
