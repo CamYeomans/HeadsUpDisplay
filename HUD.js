@@ -25,25 +25,25 @@ document.getElementById("HHMM").firstChild.nodeValue = currentTimeString;
 var day = currentTime.getDay();
 
 if(day == 0){
-    document.getElementById("Day").firstChild.nodeValue = "SUN";
+    document.getElementById("Day").firstChild.nodeValue = "Sunday";
 }
 if(day == 1){
-    document.getElementById("Day").firstChild.nodeValue = "MON";
+    document.getElementById("Day").firstChild.nodeValue = "Monday";
 }
 if(day == 2){
-    document.getElementById("Day").firstChild.nodeValue = "TUE";
+    document.getElementById("Day").firstChild.nodeValue = "Tuesday";
 }
 if(day == 3){
-    document.getElementById("Day").firstChild.nodeValue = "WED";
+    document.getElementById("Day").firstChild.nodeValue = "Wednesday";
 }
 if(day == 4){
-    document.getElementById("Day").firstChild.nodeValue = "THU";
+    document.getElementById("Day").firstChild.nodeValue = "Thursday";
 }
 if(day == 5){
-    document.getElementById("Day").firstChild.nodeValue = "FRI";
+    document.getElementById("Day").firstChild.nodeValue = "Friday";
 }
 if(day == 6){
-    document.getElementById("Day").firstChild.nodeValue = "SAT";
+    document.getElementById("Day").firstChild.nodeValue = "Saturday";
 }
 
 

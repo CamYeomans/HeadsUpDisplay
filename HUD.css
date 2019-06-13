@@ -76,12 +76,12 @@ h1{
 #Stats {
     border-bottom: 2px solid white;
     font-size: 24pt;
-    margin: 10px 0px 0 40px;
+    margin: 0px 0px 0 40px;
     text-align: center;
 }
 
 #Day {
-    font-size: 64pt;
+    font-size: 54pt;
     text-align: center;
 }
 
